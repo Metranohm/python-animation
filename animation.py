@@ -19,3 +19,5 @@ def update(num):
 # Set up the animation
 ani = FuncAnimation(fig, update, frames=range(len(x)), repeat=True)
 plt.show()
+
+run()
